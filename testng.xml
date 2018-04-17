@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="smoketests" verbose="1"  >
+    <listeners>
+        <listener class-name="listeners.MyListener" />
+    </listeners>
+
+    <test name="LoginTests">
+        <packages>
+            <package name="smoketests" />
+        </packages>
+    </test>
+</suite>
